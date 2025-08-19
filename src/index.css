@@ -105,6 +105,25 @@ main h1{
   background-color: rgb(209, 181, 22);
 }
 
+.styled-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 25px 0;
+  font-size: 18px;
+  text-align: left;
+}
+
+.styled-table thead tr {
+  background-color: #009879;
+  color: #ffffff;
+  text-align: left;
+}
+
+.styled-table th, .styled-table td {
+  padding: 12px 15px;
+  border: 1px solid #dddddd;
+}
+
 @media (prefers-color-scheme: light) {
   :root {
     color: #213547;
